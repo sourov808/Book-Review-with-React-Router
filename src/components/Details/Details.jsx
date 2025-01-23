@@ -1,6 +1,8 @@
 import React from 'react';
 import { PiCalendarSlash } from 'react-icons/pi';
 import { useLoaderData, useParams } from 'react-router-dom';
+import { toast, ToastContainer } from 'react-toastify';
+import { saveBookRead } from '../../utilites/localStroges';
 
 const Details = () => {
    const books = useLoaderData();
@@ -8,6 +10,15 @@ const Details = () => {
    const idInt = parseInt(bookId);
    const book = books.find(job => job.bookId === idInt);
    console.log(book)
+
+  const handleRead = () => {
+    saveBookRead(idInt);
+    toast('You Read It !!!')
+  }
+  const handleWishlist = () => {
+    toast.error('You already read it')
+  }
+
     // const { bookId, bookName, author, image, review, totalPages,
     //     rating, category, tags, publisher, yearOfPublishing,
     //     type, ageGroup
@@ -53,8 +64,13 @@ const Details = () => {
                     
                     
                     <div className="card-actions justify-start">
-                    <button className="btn border bg-white font-bold ">Read</button>
-                    <button className="btn text-white font-bold bg-[#59C6D2]">Wishlist</button>
+                    <button
+                    onClick={handleRead}
+                    className="btn border bg-white font-bold ">Read</button>
+                    <ToastContainer></ToastContainer>
+                    <button 
+                    onClick={handleWishlist}
+                    className="btn text-white font-bold bg-[#59C6D2]">Wishlist</button>
           </div>
         </div>
         
