@@ -1,0 +1,96 @@
+[
+    {
+      "bookId": 1,
+      "bookName": "The Silent Patient",
+      "author": "Alex Michaelides",
+      "image": "https://i.ibb.co.com/TL8FHVt/3d-thug-og.webp",
+      "review": "A gripping psychological thriller that delves into the complexities of the human mind. The plot twists will keep you hooked until the very end.",
+      "totalPages": 368,
+      "rating": 4.5,
+      "category": "Thriller",
+      "tags": ["Suspense", "Psychological", "Mystery"],
+      "publisher": "Celadon Books",
+      "yearOfPublishing": 2019,
+      "type": "Hardcover",
+      "ageGroup": "Adult"
+    },
+    {
+      "bookId": 2,
+      "bookName": "Where the Crawdads Sing",
+      "author": "Delia Owens",
+      "image": "https://i.ibb.co.com/f9MPy6X/Blackout-Angie-Thomas.webp",
+      "review": "A beautiful, haunting story of survival and solitude in the swamps of North Carolina. A heartfelt, unforgettable journey into the heart of nature and humanity.",
+      "totalPages": 384,
+      "rating": 4.8,
+      "category": "Fiction",
+      "tags": ["Drama", "Mystery", "Nature"],
+      "publisher": "G.P. Putnam's Sons",
+      "yearOfPublishing": 2018,
+      "type": "Paperback",
+      "ageGroup": "Adult"
+    },
+    {
+      "bookId": 3,
+      "bookName": "Educated",
+      "author": "Tara Westover",
+      "image": "https://i.ibb.co.com/tJtzSS0/concrete-rose-3d-spine-r.webp",
+      "review": "An incredible memoir of resilience, showing how Tara overcame a strict, isolated upbringing to earn a Ph.D. from Cambridge University. An inspiring and emotional read.",
+      "totalPages": 400,
+      "rating": 4.7,
+      "category": "Memoir",
+      "tags": ["Inspiration", "Personal Growth", "Biography"],
+      "publisher": "Random House",
+      "yearOfPublishing": 2018,
+      "type": "Ebook",
+      "ageGroup": "Adult"
+    },
+    {
+      "bookId": 4,
+      "bookName": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "image": "https://i.ibb.co.com/gtFnSwx/12-days-of-house-of-the-dragon-9798886636772-hr.jpg",
+      "review": "A classic tale of love, wealth, and the American Dream, set in the Jazz Age. Fitzgerald's sharp commentary on society and human ambition still resonates today.",
+      "totalPages": 180,
+      "rating": 4.3,
+      "category": "Classic",
+      "tags": ["Romance", "Drama", "Classic"],
+      "publisher": "Charles Scribner's Sons",
+      "yearOfPublishing": 1925,
+      "type": "Paperback",
+      "ageGroup": "Adult"
+    },
+    {
+      "bookId": 5,
+      "bookName": "Atomic Habits",
+      "author": "James Clear",
+      "image": "https://i.ibb.co.com/RBhbNS3/81-YSVtu-AFHL-AC-UL600-SR600-600.jpg",
+      "review": "A practical guide to building good habits and breaking bad ones. Clear’s methodical approach makes habit formation more achievable and helps readers optimize their lives.",
+      "totalPages": 320,
+      "rating": 4.9,
+      "category": "Self-help",
+      "tags": ["Productivity", "Personal Development", "Motivation"],
+      "publisher": "Avery",
+      "yearOfPublishing": 2018,
+      "type": "Hardcover",
+      "ageGroup": "Adult"
+    },
+    {
+      "bookId": 6,
+      "bookName": "Sapiens: A Brief History of Humankind",
+      "author": "Yuval Noah Harari",
+      "image": "https://i.ibb.co.com/Qn0BfQC/719w-AWNm3m-L-AC-UL600-SR600-600.jpg",
+      "review": "A thought-provoking exploration of the history of humankind, from the Stone Age to modern society. Harari's insights into human evolution are both enlightening and engaging.",
+      "totalPages": 443,
+      "rating": 4.6,
+      "category": "Non-fiction",
+      "tags": ["History", "Philosophy", "Science"],
+      "publisher": "Harvill Secker",
+      "yearOfPublishing": 2011,
+      "type": "Ebook",
+      "ageGroup": "Adult"
+    }
+  ]
+  
+
+
+
